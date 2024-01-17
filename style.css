@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #293241;
+    z-index: -1;
+    width: 100%;
+    height: 465px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #BFD7E4;
+    height: 1800px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-family: 'Staatliches', sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 36px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    color: #253B51;
+    margin-top: 22px;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 14px;
+    font-weight: 400;
+}
+
+header {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    margin: 100px auto 32px;
+}
+
+header img {
+    width: 225px;
+    height: 100px;
+}
+
+section {
+    width: 750px;
+    margin: auto;
+}
+
+form {
+    background: #ffffff;
+    border-radius: 0 0 20px 20px;
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px 64px;
+}
+
+#form-head {
+    border-radius: 20px 20px 0 0;
+    background: #F67669;
+    height: 133px;
+}
+
+#form-head h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+}
+
+.field-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.form-field textarea {
+    width: 608px;
+    height: 166px;
+}
+
+input,
+select,
+textarea {
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    height: 55px;
+    padding: 20px;
+    width: 100%;
+}
+
+.separator {
+    width: 622px;
+    height: 1px;
+    border: 1px solid #e6e6f0;
+    margin-bottom: 31px;
+}
+
+#checkbox {
+    width: 24px;
+    height: 24px;
+}
+
+.checkbox-form-field {
+flex-direction: row;
+}
+
+.span-label {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+span {
+    color: #C1BCCC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+span:hover {
+    color: #3c3942;
+}
+
+button {
+    border-radius: 8px;
+    background: #F67669;
+
+    display: flex;
+    width: 622px;
+    height: 51px;
+    padding: 15px 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border: none;
+}
+
+button:hover {
+    background: #be5549;
+}
